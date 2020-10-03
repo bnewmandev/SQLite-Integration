@@ -24,6 +24,7 @@ namespace SQLiteLib
 {
     public class SQLiteDataAccess
     {
+
         public static UserModel LoadUserData(string username, out int status) //Pulls login id data from the database and outputs to a UserModel
         {
             status = -1;
@@ -31,21 +32,29 @@ namespace SQLiteLib
             {
                 var outputEnum = cnn.Query<UserModel>($@"SELECT * FROM loginids WHERE username='{username}'", new DynamicParameters()); //saves the row to output with the username in a UserModel IEnum
                 List<UserModel> outputList = outputEnum.ToList(); //Converts Ienum to list of type UserModel
-                UserModel output = outputList[0]; //Takes the first (and only if everything is working) value of the list and stores in output
-                UserModel listCheck = outputList[1]; //Takes the second value of the list and stores in a check
-                if (username == listCheck.Username) //If there is more than one of the same username in the database
+                if (outputList.Count > 0)
                 {
-                    status = -2; //Duplicate Usernames written to database
-                }
-                if (username != output.Username) //If the username of the input is not the same as the output
-                {
-                    status = 1; //Username not found in Database
+                    UserModel output = outputList[1]; //Takes the first (and only if everything is working) value of the list and stores in output
+                    UserModel listCheck = outputList[1]; //Takes the second value of the list and stores in a check
+                    if (username == listCheck.Username) //If there is more than one of the same username in the database
+                    {
+                        status = -2; //Duplicate Usernames written to database
+                    }
+                    if (username != output.Username) //If the username of the input is not the same as the output
+                    {
+                        status = 1; //Username not found in Database
+                    }
+                    else
+                    {
+                        status = 0;
+                    }
+                    return output;
                 }
                 else
                 {
-                    status = 0;
+                    status = -1;
+                    return null;
                 }
-                return output;
             } //Using this method ensures that by the time this curly brace is hit the connection is closed
         }
 
