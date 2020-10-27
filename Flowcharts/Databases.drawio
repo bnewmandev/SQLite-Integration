@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T11:12:52.380Z" agent="5.0 (Windows)" version="13.8.3" etag="QXiIOtFlf6UlwDiZhujQ" type="github"><diagram id="rKWR-PEDPzwSMtpK3gOk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-27T11:38:24.714Z" agent="5.0 (Windows)" etag="MrbZAqTFl0sWRC9Ra6k5" version="13.8.3" type="github">
+  <diagram id="rKWR-PEDPzwSMtpK3gOk" name="Page-1">
+    <mxGraphModel dx="981" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.0344827586207" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-6" value="Login Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="100" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-10" target="TNfIFTZdhsq6mBwcs1WV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-10" target="TNfIFTZdhsq6mBwcs1WV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-10" value="&lt;div&gt;class:&lt;/div&gt;&lt;div&gt;LoginInstance&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-11" value="&lt;div&gt;TEXT&lt;br&gt;&lt;/div&gt;&lt;div&gt;string:&lt;/div&gt;&lt;div&gt;Username&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-13" value="&lt;div&gt;TEXT&lt;br&gt;&lt;/div&gt;&lt;div&gt;string: PasswordHash&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-15" target="TNfIFTZdhsq6mBwcs1WV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-15" value="&lt;div&gt;User&lt;/div&gt;&lt;div&gt;Data&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="440" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-24" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TNfIFTZdhsq6mBwcs1WV-16" target="TNfIFTZdhsq6mBwcs1WV-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-16" value="&lt;div&gt;class:&lt;/div&gt;&lt;div&gt;User&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-23" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;LoginInstance:&lt;/div&gt;&lt;div&gt;LoginData&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-25" value="&lt;div&gt;TEXT&lt;/div&gt;&lt;div&gt;string:&lt;/div&gt;&lt;div&gt;Name&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-28" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;img byte[]:&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProfilePicture&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-30" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;DateTime:&lt;/div&gt;&lt;div&gt;DateJoined&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-31" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;List&amp;lt;Ingredient&amp;gt;:&lt;/div&gt;&lt;div&gt;SavedIngredients&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-34" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;List&amp;lt;User&amp;gt;:&lt;/div&gt;&lt;div&gt;SavedAuthors&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-36" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;List&amp;lt;Post&amp;gt;:&lt;/div&gt;&lt;div&gt;SavedPosts&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-38" value="&lt;div&gt;BLOB&lt;/div&gt;&lt;div&gt;MD byte[]:&lt;br&gt;&lt;/div&gt;&lt;div&gt;UserBio&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-41" value="&lt;div&gt;TEXT&lt;/div&gt;&lt;div&gt;string:&lt;/div&gt;&lt;div&gt;Email&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TNfIFTZdhsq6mBwcs1WV-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
