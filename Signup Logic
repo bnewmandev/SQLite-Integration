@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T15:52:12.158Z" agent="5.0 (Windows)" etag="BvRn4iaWTZrpr7c9K94p" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T16:05:21.827Z" agent="5.0 (Windows)" etag="mF3WgG8zyw_uIlac_oqB" version="13.8.7" type="github">
   <diagram id="qOmnfNjCW4ZrtbDo8BAQ" name="Page-1">
     <mxGraphModel dx="825" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,19 +31,97 @@
           <mxGeometry x="340" y="155" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SLJ3xcVo2tzL5AZut3mj-12" value="&lt;div&gt;Fail&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="58" width="30" height="20" as="geometry" />
+          <mxGeometry x="388" y="117.5" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SLJ3xcVo2tzL5AZut3mj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-13" target="SLJ3xcVo2tzL5AZut3mj-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SLJ3xcVo2tzL5AZut3mj-13" value="&lt;div&gt;DATA&lt;br&gt;&lt;/div&gt;&lt;div&gt;Username: s&lt;/div&gt;&lt;div&gt;Password: s&lt;/div&gt;&lt;div&gt;Email: s&lt;/div&gt;&lt;div&gt;SessionID: #&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
-          <mxGeometry x="330" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-13" value="&lt;div&gt;DATA&lt;br&gt;&lt;/div&gt;&lt;div&gt;Username: s&lt;/div&gt;&lt;div&gt;Password: s&lt;/div&gt;&lt;div&gt;Email: s&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SLJ3xcVo2tzL5AZut3mj-19" value="&lt;div&gt;Pass&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="388" y="192" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-23" target="SLJ3xcVo2tzL5AZut3mj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SLJ3xcVo2tzL5AZut3mj-23" value="&lt;div&gt;HTTPS POST REQUST: DATA&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-26" target="SLJ3xcVo2tzL5AZut3mj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-26" target="SLJ3xcVo2tzL5AZut3mj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-26" value="Secondary Validation" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="332.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-28" value="HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="332.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-29" value="400" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="625" y="260" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-31" value="Fail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-32" target="SLJ3xcVo2tzL5AZut3mj-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-32" target="SLJ3xcVo2tzL5AZut3mj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="419" />
+              <mxPoint x="750" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-32" value="Does Email Exist" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="100" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-34" value="&lt;div&gt;Pass&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="372" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-35" target="SLJ3xcVo2tzL5AZut3mj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="479" />
+              <mxPoint x="750" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-35" target="SLJ3xcVo2tzL5AZut3mj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-35" value="Does User Exist" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="460" width="100" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-38" value="&lt;div&gt;Fail&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-40" value="&lt;div&gt;Fail&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="460" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-41" target="SLJ3xcVo2tzL5AZut3mj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-41" value="Hash Password" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="100" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-43" target="SLJ3xcVo2tzL5AZut3mj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SLJ3xcVo2tzL5AZut3mj-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-43" value="&lt;div&gt;DATA&lt;/div&gt;&lt;div&gt;Username: s&lt;/div&gt;&lt;div&gt;Passwordh: s&lt;/div&gt;&lt;div&gt;Email: s&lt;/div&gt;&lt;div&gt;DateJoined: #&lt;/div&gt;&lt;div&gt;....&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="590" y="580" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SLJ3xcVo2tzL5AZut3mj-46" value="main" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="612.5" width="60" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
